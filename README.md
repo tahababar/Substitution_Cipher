@@ -1,2 +1,5 @@
 # Substitution_Cipher_C++
 A project completed in my CS122 Data Structures Class
+
+In this project, I wrote a class in C++ that can perform substitution cipher. The class contained a private field called cipherKeys of type string, a public constructor that takes a string argument and initializes the cipherKeys field to that argument, a public accessor and mutator for the cipherKeys field, a public method called encodeChar that takes a char representing a single plaintext character and returns the corresponding ciphertext character, a public method called decodeChar that takes a char representing a single ciphertext character and returns the corresponding plaintext character, a public method called encodeString that works the same as encodeChar, except that it takes an entire string and returns an entire string, a public method called decodeString that again works like decodeChar, except for strings, and two private methods (charToAlphabetPosition(char c) and alphabetPositionToChar(int pos)) that take character/alphabet and tell us the position of the alphabet/character.
+
